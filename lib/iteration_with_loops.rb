@@ -6,5 +6,5 @@ def join_nested_strings(src)
   while i < src.length do
     j = 0
     while j < src[i].length do
-      if src[i][j] === to_s
+      if src[i][j]
 end
