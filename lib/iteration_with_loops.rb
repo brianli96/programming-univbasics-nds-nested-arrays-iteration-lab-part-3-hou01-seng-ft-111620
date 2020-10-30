@@ -8,4 +8,10 @@ def join_nested_strings(src)
     while j < src[i].length do
       if src[i][j].is_a? String
         result += src[i][j]
+        result.join(" ")
+      end
+      j += 1
+    end
+    i += 1
+  end
 end
